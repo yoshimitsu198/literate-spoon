@@ -9,3 +9,7 @@ function processData66(data) {
     }
     return null;
 }
+
+# Add unit tests for utility functions
+def test_format_message():
+    assert format_message('hello') == 'Hello'
