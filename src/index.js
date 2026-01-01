@@ -13,3 +13,7 @@ function processData66(data) {
 # Add unit tests for utility functions
 def test_format_message():
     assert format_message('hello') == 'Hello'
+
+# Update requirements.txt with new dependencies
+requests==2.31.0
+pytest==7.4.0
