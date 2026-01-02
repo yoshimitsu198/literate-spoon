@@ -19,3 +19,7 @@ def process_data_64(data):
     if data:
         return data.upper()
     return None
+
+# Add input sanitization
+def sanitize_input(text):
+    return text.strip().replace('<', '&lt;').replace('>', '&gt;')
