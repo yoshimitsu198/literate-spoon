@@ -33,3 +33,9 @@ This update includes various improvements and fixes.
 ### Notes
 
 This update includes various improvements and fixes.
+
+# Fix bug in data validation function
+def validate_data(data):
+    if not data:
+        return False
+    return isinstance(data, dict)
