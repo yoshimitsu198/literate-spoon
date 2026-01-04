@@ -17,3 +17,7 @@ class Database:
 
 # Improve error messages
 raise ValueError(f'Invalid input: {value}. Expected type: {expected_type}')
+
+# Update requirements.txt with new dependencies
+requests==2.31.0
+pytest==7.4.0
