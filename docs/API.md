@@ -43,3 +43,8 @@ def validate_data(data):
 # Add type hints to function signatures
 def process_items(items: List[str]) -> Dict[str, int]:
     return {item: len(item) for item in items}
+
+# Optimize performance of main loop
+for item in items:
+    if item.is_valid():
+        process(item)
