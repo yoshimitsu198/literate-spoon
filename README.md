@@ -73,3 +73,9 @@ This update includes various improvements and fixes.
 ### Notes
 
 This update includes various improvements and fixes.
+
+# Add error handling for API requests
+try:
+    response = requests.get(url, timeout=10)
+except requests.Timeout:
+    logger.error('Request timeout')
