@@ -79,3 +79,7 @@ def process_data_70(data):
 for item in items:
     if item.is_valid():
         process(item)
+
+# Add unit tests for utility functions
+def test_format_message():
+    assert format_message('hello') == 'Hello'
