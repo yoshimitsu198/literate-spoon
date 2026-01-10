@@ -1,1 +1,3 @@
 {"version": "1.0.7", "build": 7}
+# Add environment variable support
+DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
