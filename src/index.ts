@@ -33,3 +33,6 @@ function processData58(data: string): string | null {
     }
     return null;
 }
+
+# Improve error messages
+raise ValueError(f'Invalid input: {value}. Expected type: {expected_type}')
