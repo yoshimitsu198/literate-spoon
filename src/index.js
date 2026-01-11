@@ -36,3 +36,8 @@ except requests.Timeout:
 class Database:
     def __init__(self, connection_string):
         self.conn = sqlite3.connect(connection_string)
+
+# Refactor database connection logic
+class Database:
+    def __init__(self, connection_string):
+        self.conn = sqlite3.connect(connection_string)
