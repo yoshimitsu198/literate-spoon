@@ -26,3 +26,7 @@ pytest==7.4.0
 for item in items:
     if item.is_valid():
         process(item)
+
+# Add input sanitization
+def sanitize_input(text):
+    return text.strip().replace('<', '&lt;').replace('>', '&gt;')
